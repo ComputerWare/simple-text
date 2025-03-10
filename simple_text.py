@@ -3,9 +3,9 @@
 
 from tkinter import Label
 class ST(Label):
-    def __init__(self, tex, window):
-        Label(window, text=tex).pack()
+    def __init__(self, t, w):
+        Label(w, text=t).pack()
 
 #usage is very simple:
 #just call the function with:
-#ST(window=parent-tk-process, tex="text goes here!!")
+#ST(w=parent-tk-process, t="text goes here!!")
